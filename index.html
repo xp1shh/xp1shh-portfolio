@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир моих видеоигр — Портфолио</title>
+    <!-- Подключаем простой стиль Tailwind CSS для удобной верстки -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans leading-relaxed">
+
+    <!-- ВЕРХНЯЯ ШАПКА / НАВИГАЦИЯ -->
+    <header class="bg-slate-800 text-white py-4 sticky top-0 shadow-md">
+        <div class="max-w-4xl mx-auto px-4 flex justify-between items-center">
+            <h1 class="font-bold text-xl tracking-wide">🎮 Мир моих видеоигр</h1>
+            <nav class="space-x-4 text-sm font-medium">
+                <a href="#about" class="hover:underline text-slate-200">О себе</a>
+                <a href="#top" class="hover:underline text-slate-200">Топ игр</a>
+                <a href="#reviews" class="hover:underline text-slate-200">Обзоры и гайды</a>
+                <a href="#gallery" class="hover:underline text-slate-200">Галерея</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ОСНОВНОЙ КОНТЕНТ СТРАНИЦЫ -->
+    <main class="max-w-4xl mx-auto px-4 py-8 space-y-12">
+
+        <!-- БЛОК 1: О СЕБЕ -->
+        <section id="about" class="bg-white p-6 rounded-lg border border-slate-300 shadow-sm">
+            <h2 class="text-2xl font-bold text-slate-800 mb-3 border-b-2 border-indigo-500 pb-1 inline-block">
+                Привет! Это мой игровой блог
+            </h2>
+            <p class="text-slate-600 mb-3">
+                Меня зовут Глеб, я учусь в 11 классе. В свободное от учебы время я люблю играть в видеоигры разных жанров — от шутеров до хардкорных экшенов и хорроров.
+            </p>
+            <p class="text-slate-600">
+                На этом сайте я собрал список моих самых любимых игр, небольшие заметки и обзоры на них, а также лучшие скриншоты из моментов прохождения.
+            </p>
+        </section>
+
+        <!-- БЛОК 2: ТОП ЛЮБИМЫХ ИГР -->
+        <section id="top" class="bg-white p-6 rounded-lg border border-slate-300 shadow-sm">
+            <h2 class="text-2xl font-bold text-slate-800 mb-6 border-b-2 border-indigo-500 pb-1 inline-block">
+                🏆 Мой Топ-3 Любимых Игр
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <!-- Игра 1: Fortnite -->
+                <div class="border border-slate-200 rounded-lg p-4 bg-slate-50 flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider block mb-1">1 Место</span>
+                        <h3 class="text-lg font-bold mb-2">Fortnite</h3>
+                        <p class="text-sm text-slate-600">
+                            Королевская битва с яркой графикой и частыми обновлениями. Люблю играть с друзьями по вечерам в режим со стройкой.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-200 text-xs text-slate-500">
+                        Оценка: <strong>9 / 10</strong>
+                    </div>
+                </div>
+
+                <!-- Игра 2: Sekiro -->
+                <div class="border border-slate-200 rounded-lg p-4 bg-slate-50 flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider block mb-1">2 Место</span>
+                        <h3 class="text-lg font-bold mb-2">Sekiro: Shadows Die Twice</h3>
+                        <p class="text-sm text-slate-600">
+                            Очень сложный и красивый экшен про ниндзя. Боевая система завязана на идеальном парировании ударов.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-200 text-xs text-slate-500">
+                        Оценка: <strong>10 / 10</strong>
+                    </div>
+                </div>
+
+                <!-- Игра 3: Resident Evil -->
+                <div class="border border-slate-200 rounded-lg p-4 bg-slate-50 flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider block mb-1">3 Место</span>
+                        <h3 class="text-lg font-bold mb-2">Resident Evil</h3>
+                        <p class="text-sm text-slate-600">
+                            Легендарная серия хорроров. Отличный баланс между жуткой атмосферой, экономией патронов и загадками.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-200 text-xs text-slate-500">
+                        Оценка: <strong>9.5 / 10</strong>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- БЛОК 3: ОБЗОРЫ И ГАЙДЫ -->
+        <section id="reviews" class="bg-white p-6 rounded-lg border border-slate-300 shadow-sm">
+            <h2 class="text-2xl font-bold text-slate-800 mb-6 border-b-2 border-indigo-500 pb-1 inline-block">
+                📝 Обзоры и полезные советы
+            </h2>
+
+            <div class="space-y-6">
+
+                <!-- Статья 1 -->
+                <div class="border-l-4 border-indigo-500 pl-4 py-1">
+                    <h3 class="text-lg font-bold text-slate-800">Как перестать проигрывать в Sekiro</h3>
+                    <p class="text-xs text-slate-400 mb-2">Советы по прохождению</p>
+                    <p class="text-sm text-slate-600 mb-2">
+                        Главное правило этой игры — перестать зажимать кнопку блока или бегать от босса. Нажимайте блок ровно в момент удара врага, чтобы сбить его концентрацию. Звук звонкого металла подскажет, что вы всё сделали правильно!
+                    </p>
+                </div>
+
+                <!-- Статья 2 -->
+                <div class="border-l-4 border-indigo-500 pl-4 py-1">
+                    <h3 class="text-lg font-bold text-slate-800">Почему Fortnite всё еще популярен?</h3>
+                    <p class="text-xs text-slate-400 mb-2">Краткое мнение</p>
+                    <p class="text-sm text-slate-600">
+                        Секрет игры — постоянная смена сезонов и отсутствие уныния. Разработчики постоянно добавляют новое оружие, локации и персонажей из кино и комиксов. А режим «Zero Build» сделал игру доступной для каждого.
+                    </p>
+                </div>
+
+                <!-- Статья 3 -->
+                <div class="border-l-4 border-indigo-500 pl-4 py-1">
+                    <h3 class="text-lg font-bold text-slate-800">Совет по экономии патронов в Resident Evil</h3>
+                    <p class="text-xs text-slate-400 mb-2">Гайд по выживанию</p>
+                    <p class="text-sm text-slate-600">
+                        Не пытайтесь расстрелять каждого зомби до конца. Стреляйте один раз в голову или колено, чтобы оглушить врага, а затем подбегайте и бейте его ударом ноги или ножом!
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- БЛОК 4: ГАЛЕРЕЯ СКРИНШОТОВ -->
+        <section id="gallery" class="bg-white p-6 rounded-lg border border-slate-300 shadow-sm">
+            <h2 class="text-2xl font-bold text-slate-800 mb-2 border-b-2 border-indigo-500 pb-1 inline-block">
+                🖼️ Галерея скриншотов
+            </h2>
+            <p class="text-xs text-slate-500 mb-6">Кадры, сделанные во время игрового процесса.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+
+                <!-- СКРИНШОТ №1 -->
+                <div class="border border-slate-200 p-2 rounded bg-slate-50">
+                    <!-- Замените ссылку в src на название вашей картинки (например: src="sekiro.jpg") -->
+                    <img src="resik.jpg" 
+                         alt="Resident Evil 4" 
+                         class="w-full h-40 object-cover rounded mb-2">
+                    <p class="text-xs text-center font-medium text-slate-600">
+                        Эпичный момент из игры
+                    </p>
+                </div>
+
+                <!-- СКРИНШОТ №2 -->
+                <div class="border border-slate-200 p-2 rounded bg-slate-50">
+                    <!-- Замените ссылку в src -->
+                    <img src="images.jpg" 
+                         alt="Fortnite" 
+                         class="w-full h-40 object-cover rounded mb-2">
+                    <p class="text-xs text-center font-medium text-slate-600">
+                        Красивая локация
+                    </p>
+                </div>
+
+                <!-- СКРИНШОТ №3 -->
+                <div class="border border-slate-200 p-2 rounded bg-slate-50">
+                    <!-- Замените ссылку в src -->
+                    <img src="619944.jpg" 
+                         alt="Sekiro" 
+                         class="w-full h-40 object-cover rounded mb-2">
+                    <p class="text-xs text-center font-medium text-slate-600">
+                        Победа над сложным боссом
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ПОДВАЛ СТРАНИЦЫ -->
+    <footer class="bg-slate-800 text-slate-400 py-6 text-center text-sm">
+        <p>© 2026 Сайт-портфолио «Мир моих видеоигр»</p>
+        <p class="text-xs mt-1 text-slate-500">Сделано для учебного проекта</p>
+    </footer>
+
+</body>
+</html>
